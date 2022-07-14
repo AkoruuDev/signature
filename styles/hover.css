@@ -1,0 +1,13 @@
+.perfilImg .logo:hover, .name .nameBase:hover {
+    opacity: 0;
+}
+
+.navJobs span:hover {
+    width: 155px;
+    height: 55px;
+
+    cursor: pointer;
+    box-shadow: 4px 4px 10px black;
+    background-color: rgb(18, 100, 18);
+    font-size: 16px;
+}
