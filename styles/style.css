@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.banker {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: aqua;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block {
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+
+    border-radius: 90px;
+    box-shadow: 0 4px 10px 4px black;
+    background-color: green;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.perfilImg {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.perfilImg img {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+
+    position: absolute;
+    transition: all 0.2s linear;
+}
+
+.name {
+    width: 300px;
+    height: 50px;
+
+    position: relative;
+}
+
+.name span {
+    width: 300px;
+    height: 50px;
+
+    background-color: green;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    transition: all 0.2s linear;
+}
+
+.navSocial {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.navSocial img {
+    width: 50px;
+}
+
+.navJobs {
+    width: 80%;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navJobs span {
+    width: 150px;
+    height: 50px;
+
+    border-radius: 50px;
+    background-color: rgb(13, 87, 13);
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.05s linear;
+}
