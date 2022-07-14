@@ -70,13 +70,18 @@
 
 .navSocial {
     width: 80%;
+    height: 60px;
 
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.navSocial img {
-    width: 50px;
+.navSocial ion-icon {
+    font-size: 50px;
+    color: rgb(0, 20, 0);
+
+    transition: all 0.1s linear;
 }
 
 .navJobs {
